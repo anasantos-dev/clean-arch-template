@@ -4,6 +4,7 @@ import { IdGenerator } from '../repositories/id-generator-interface';
 
 
 export interface Params {
+    title: string;
     author: string;
     isbn: string;
     publisher: string;
